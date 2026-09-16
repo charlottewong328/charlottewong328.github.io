@@ -1,0 +1,300 @@
+.about-page {
+  padding: 7rem 2.5rem 4rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about-hero {
+  margin-bottom: 3.5rem;
+  max-width: 720px;
+}
+
+.about-hero-top {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-photo {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--brown-200);
+  flex-shrink: 0;
+}
+
+.about-hero-text {
+  flex: 1;
+}
+
+.about-role {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  color: var(--brown-500);
+  margin-top: 0.35rem;
+}
+
+.inline-link {
+  color: var(--brown-700);
+  border-bottom: 1px solid var(--brown-300);
+  transition: var(--transition);
+}
+
+.inline-link:hover {
+  color: var(--brown-900);
+  border-color: var(--brown-700);
+}
+
+.about-bio-extended {
+  font-size: 1rem;
+  color: var(--brown-500);
+  line-height: 1.75;
+  margin-bottom: 1.25rem;
+}
+
+.about-eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--brown-400);
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.about-name {
+  font-family: var(--font-serif);
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  font-weight: 400;
+  color: var(--brown-900);
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+.about-bio {
+  font-size: 1.05rem;
+  color: var(--brown-500);
+  line-height: 1.75;
+  margin-bottom: 1.25rem;
+}
+
+.about-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
+.about-links a {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  color: var(--brown-500);
+  border-bottom: 1px solid var(--brown-200);
+  padding-bottom: 2px;
+  transition: var(--transition);
+}
+
+.about-links a:hover {
+  color: var(--brown-900);
+  border-color: var(--brown-700);
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 3.5rem;
+}
+
+.about-card {
+  background: var(--white);
+  border: 1px solid var(--brown-200);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+}
+
+.matcha-card {
+  grid-row: span 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.matcha-image-wrap {
+  flex: 1;
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin-bottom: 1rem;
+  min-height: 280px;
+}
+
+.matcha-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.matcha-caption {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 0.95rem;
+  color: var(--brown-400);
+  text-align: center;
+}
+
+.card-title {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--brown-400);
+  margin-bottom: 1.25rem;
+}
+
+.info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.info-row {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  gap: 0.75rem;
+  align-items: start;
+}
+
+.info-row dt {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--brown-400);
+  padding-top: 0.15rem;
+}
+
+.info-row dd {
+  font-size: 0.9rem;
+  color: var(--brown-700);
+}
+
+.interest-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  list-style: none;
+}
+
+.interest-tags li {
+  font-size: 0.75rem;
+  color: var(--brown-600, var(--brown-700));
+  padding: 0.25rem 0.6rem;
+  background: var(--brown-100);
+  border-radius: 100px;
+}
+
+.cd-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-section {
+  margin-bottom: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--brown-200);
+}
+
+.section-title {
+  font-family: var(--font-serif);
+  font-size: 1.75rem;
+  font-weight: 400;
+  color: var(--brown-900);
+  margin-bottom: 1.5rem;
+}
+
+.classes-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.semester-block {
+  background: var(--white);
+  border: 1px solid var(--brown-200);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+}
+
+.semester-name {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--brown-400);
+  margin-bottom: 0.75rem;
+}
+
+.course-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.course-list li {
+  font-size: 0.85rem;
+  color: var(--brown-600, var(--brown-700));
+  line-height: 1.4;
+}
+
+.awards-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.awards-list li {
+  font-size: 0.9rem;
+  color: var(--brown-600, var(--brown-700));
+  padding-left: 1rem;
+  position: relative;
+}
+
+.awards-list li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: var(--brown-300);
+}
+
+@media (max-width: 768px) {
+  .about-page {
+    padding: 6rem 1.25rem 3rem;
+  }
+
+  .about-hero-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .matcha-card {
+    grid-row: auto;
+  }
+
+  .classes-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .info-row {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+}
